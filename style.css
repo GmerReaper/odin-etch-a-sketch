@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a2e;
+}
+
+/* Style for the grid container and cells */
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 512px;
+    height: 512px;
+    border: 2px solid black;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.cell {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+/* Button */
+
+#newGrid {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+#newGrid:hover {
+    background-color: #c73652;
+}
+
+/* Heading */
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 span {
+    color: #e94560;
+}
+
+/* Credits */
+
+#credits {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #a0a0b0;
+    letter-spacing: 1px;
+}
+
+#credits a {
+    color: #e94560;
+    text-decoration: none;
+}
+
+#credits a:hover {
+    text-decoration: underline;
+}
+
+
